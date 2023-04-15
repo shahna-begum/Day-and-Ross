@@ -1,0 +1,263 @@
+*,*::after,*::before{padding:0;margin:0;box-sizing: border-box;}
+html,:root{font-size: 62.5%;}
+/* body{font-family: Montserrat,sans-serif!important;} */
+.exclamation-cir{font-size: 2rem;margin-right: 0.5rem;}
+.top-alert{letter-spacing: .7px;text-align: center;font-size: 1.6rem;}
+.our-services-p{font-size: 1.6rem;margin: 4rem 0 9rem;}
+.our-services-heading{margin-top: 4rem;font-size: 4rem;font-weight: 400;}
+.our-service-image-wrapper{min-height: 50rem;position: relative;}
+.our-service-image-wrapper.img-LTL{background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url('../Images/LTLTruckloadHomePage.png');background-position: center center;background-size: cover;background-repeat: no-repeat;}
+.our-service-image-wrapper.img-commerce{background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url('../Images/CommerceSolutionsHomePage.png');background-position: center center;background-size: cover;background-repeat: no-repeat;}
+.our-service-image-wrapper.img-logistics{background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url('../Images/LogisticsHomePage.png');background-position: center center;background-size: cover;background-repeat: no-repeat;}
+.our-service-image-wrapper.img-dedicated{background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url('../Images/DedicatedHomePage.png');background-position: center center;background-size: cover;background-repeat: no-repeat;}
+.our-services-image-content{position: absolute;content: '';bottom: 10px;left: 0;color: white;font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 5rem 1.3rem 3.3rem;
+    letter-spacing: .4px;}
+.our-services-image-content a{color: white;font-size: 2.7rem;text-decoration: none;position: relative;padding-bottom: .3rem;transition: all .3s;}
+.our-services-image-content a::before{position: absolute;content: '';left:0;top:100%;background-color: #ff6319;height:2px;width:8.5rem;}
+.our-services-image-content a:hover{color:#ff6319;}
+.our-services-image-content p{margin-top: 1.5rem;}
+.join-container{margin:15rem 0;}
+.join-left-image{background-image: url('../Images/driverphoto.jpg');min-height: 51rem;background-position: center center;background-size: cover;background-repeat: no-repeat;}
+.join-container .join-content-col{display: flex;align-items: center;padding: 8rem;}
+.join-content-col h2{font-size: 2.7rem;}
+.join-content-col p{font-size: 1.6rem;
+    letter-spacing: .4px;
+    line-height: 2.6rem;
+    margin: 2rem 0 4rem;
+    font-weight: 400;}
+.join-content-col .content button i{color:#ff6319;}
+.view-all-btn{border: 1.7px solid black;
+        font-size: 1.6rem;
+        padding: 1.2rem 3rem;
+        font-weight: 500;
+        letter-spacing: .4px;
+    transition: all .3s;}
+.join-content-col .content div.drive-btn{margin-left: -3rem;}
+.drive-with-btn{border: 1.7px solid black;
+            font-size: 1.6rem;
+            color:rgb(217, 217, 214);
+            padding: 1.2rem 3rem;
+            font-weight: 500;
+            background-color: black;
+            letter-spacing: .4px;
+        transition: all .3s;}
+.view-all-btn:hover{border: 1.7px solid #292625;}
+.drive-with-btn:hover{color:black;background-color:#ff6319;border: 1.7px solid #ff6319}
+button.drive-with-btn:hover i{color:black;}
+.more-than-just-col{background-image: url('../Images/morethan.jpg');min-height: 51rem;background-position: center center;background-size: cover;background-repeat: no-repeat;}
+.more-than-just-content-col{padding-left: 24rem;
+    padding-right: 12rem;
+    display: flex;
+    align-items: center;}
+.carousel-div{
+    margin-top:8rem;
+}
+.first-slide{color: rgb(255, 255, 255);
+    background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+86.51deg
+, rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/Leah_DeSantis_HeroImage.jpg') !important;min-height: 53rem;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;}
+#carouselExampleIndicators a{color: white;
+    opacity: 1;}
+.carousel-control-next{justify-content: flex-end;margin-right: 3rem;}
+.carousel-control-prev{justify-content: flex-start;margin-left: 3rem;}
+.carousel-item{position: relative;}
+.carousel-caption{position: absolute;
+    top: 12rem;
+    left: 18rem;
+    text-align: left;
+max-width: 44rem;width:100%;}
+.carousel-caption h5{font-size: 2rem;
+    margin-bottom: 2rem;}
+    .carousel-caption a {position:relative;font-size: 1.7rem;
+        text-decoration: none;    padding-top: 3px;}
+        .carousel-caption a i{    font-size: 1.4rem;color: #ff6319;}
+        .carousel-caption a:before{position: absolute;content: '';top:0;left:0;width:8.2rem;height: 2px;background-color: #ff6319;}
+        .carousel-indicators {
+            bottom: 35px;
+        }
+        .carousel-indicators li {
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            margin-right: 11px;
+        }
+    .second-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/Tech_update_Hero_Image.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .third-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/Moncton_SolarPanels_Hero.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .forth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/TAT_Hero.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .fifth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/Michelle_Allard_Promotion_Announcement_Hero.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .sixth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/Matt_Ly_Hero.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .seventh-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/WIT_Social_Post_21_V3.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .eigth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/PaperlessPaymentsBanner1.png') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .ninth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/2020highlightvideotruck_Hero_Image.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .tenth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/Gardner_Green_Hero.jpg') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .elevnth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/Bruce_Hero_Image.png') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .twelth-slide{color: rgb(255, 255, 255);
+        background-image: radial-gradient(25.37% 122.96% at 100% 38.7%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(
+    86.51deg
+    , rgba(0, 0, 0, 0.7) 1.31%, rgba(0, 0, 0, 0) 58.4%), url('../Images/HR_Award_2020_Hero_Image.png') !important;min-height: 53rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    footer{background-color: black;overflow-x: hidden;padding: 3.3rem 0;color:white;font-size: 1.6rem;font-weight: 500;}
+    footer .list-group-item{border:none;background-color: transparent;padding:.3rem;}
+    footer .list-group-item.social-network div{display: inline-block;
+        height: 28px;
+        width: 28px;
+    background-color: white;
+        margin-right: 1rem;
+        border-radius: 50%;position: relative;}
+    footer .list-group-item.social-network div a{position: absolute;color: black;top:50%;left:50%;transform:translate(-50%,-50%);}
+    .chat-ul .fa,.chat-ul .fas{-webkit-text-stroke-width: 1px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-color: #ff6319;}
+        .video-container{max-height: 80.5rem;height:80.5rem;width:99.1vw;position: relative;}
+        .video-container video{position: absolute;top:0;left:0;width:100%;height:100%;object-fit: cover;}
+        .video-container .overlay{position: absolute;top:0;left:0;width:100%;height:100%;background: linear-gradient(
+            90deg
+            , rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 62.32%);
+            }
+            .video-content{position: absolute;
+                top: 138px;
+                left: 41rem;
+                width: 28%;
+                height: 100%;}
+.video-content h1{font-size: 5rem;color:white;padding: 0 34rem 0 0;}
+.video-content .video-content-btn{margin: 10rem 0 6rem;}
+.video-content .video-content-btn button.drive-with-btn{margin-right:1rem;}
+.video-content .video-content-btn button i{color:#ff6319;}
+.video-content .video-content-btn button.drive-with-btn:hover i{color:black;}
+.video-content .video-content-btn button.view-all-btn:hover{border:1.7px solid #ff6319;}
+.video-content  .list-group-item {
+    padding: .75rem 1.25rem;
+    background-color: transparent;
+    border: 0px solid rgba(0,0,0,.125);
+}
+.video-content  .list-group-item a{color: white;letter-spacing: .4px;font-size: 2rem;text-decoration: none;}
+.video-content  .list-group-item a:hover{color:#ff6319;}
+.video-content  .list-group-item a i{color:#ff6319;}
+.chevron-down{position: absolute;bottom:13px;left:50%;font-size: 3rem;
+    color: #ff6319;cursor:pointer;}
+.navbar-container{margin-top: -1rem;}
+.navbar-brand img{max-height:87px;height:87px;}
+.login-info{height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;}
+    .login-info img{  position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;}
+.nav-content{display: flex;
+            list-style: none;
+            align-items: center;}
+.nav-content li{margin-right: 4rem;}
+.two-link a{text-decoration: none;font-size: 1.5rem;
+    color: black;
+    margin-right: 2rem;}
+    .two-link a.active{border-bottom: 2px solid black;}
+.three-lines-btn{background: transparent;
+    color: black;
+    font-size: 2rem;
+    border: none;}
+    .three-lines-btn:focus{border:none;outline: none;box-shadow: 0 0 0 0 rgb(0 123 255 / 25%);
+    }
+    .wrapper{position: relative;width: 140px;
+        height: auto;margin-top: -3rem;
+        margin-right: 2rem;}
+    .wrapper input{position: absolute;border: 0;
+        border-bottom: 1.9px solid black;
+        border-radius: 0;font-size: 1.3rem;}
+        .wrapper input:focus{box-shadow: none;border-bottom-color:black;}
+    .wrapper button{position: absolute;right: 0;
+        color: black;
+        border: none;}
+.wrapper button:hover{color:black;background-color: transparent;border:0;outline:0;}
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 0rem rgb(40 167 69 / 50%);
+}
+.wrapper .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: black;
+    background-color: transparent;
+    border-color:transparent;
+    box-shadow: 0;
+}
+.nav-hidden-div{display: flex;flex-direction: row;list-style: none;margin: 0 auto;}
+.nav-hidden-div > li{width: 15.3rem;margin: 0.1rem 0 1.7rem;}
+.nav-hidden-div li button{border: 0;
+    background: transparent;
+    font-size: 1.4rem;
+    letter-spacing: .4px;}
+.nav-hidden-div .content{display:none;
+    margin-top: 2rem;
+    font-size: 1.4rem;}
+.nav-hidden-div .content ul{list-style: none;}
+.nav-hidden-div .content ul li{margin-bottom: 1rem;border-left: 3px solid transparent;
+    padding-left: .5rem;transition: all .3s;}
+.nav-hidden-div .content ul li:hover{border-left-color: #ff6319;}
+.nav-hidden-div .content ul li a{color: black;  text-decoration: none;
+    font-size: 1.4rem;}
